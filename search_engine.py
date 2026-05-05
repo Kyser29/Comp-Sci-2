@@ -127,9 +127,6 @@ class SearchEngine:
         for result in results:
             result.display()
 
-    # -----------------------------
-    # MERGE SORT (RECURSIVE)
-    # -----------------------------
     def merge_sort_results(self, results):
         if len(results) <= 1:
             return results
